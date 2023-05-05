@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/efb4855d-e702-43e5-9997-bba0154152e0/5e2801e9-d76f-4e77-a8ea-7dba0d187459/NG-en-20230417-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-color: gray;
+    width: 100%;
+}
+header{
+    /* border: 2px solid red; */
+    height: 5em;
+}
+form{
+    border: 1px solid purple;
+    width: 32%;
+    height: 38em;
+    margin: 0 auto;
+    background: rgba( 19, 19, 19, 0.9 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.container{
+    justify-content: space-around;
+    height: 18em;
+    margin: 3em auto;
+    width: 70%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    
+}
+h2{
+    margin-left: 1em;
+    margin-top: 1em;
+    color: white;
+    font-size: 2.8rem;
+    font-family: 'Roboto', sans-serif;
+}
+.role{
+    margin-top: 2em;
+    
+}
+input{
+    color: rgb(250, 244, 244);
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 1rem;
+    padding: 1em;
+    align-self: center;
+    border: none;
+    margin-top: 3em;
+    width: 98%;
+    height: 3em;
+    border-radius: 4px;
+}
+input:active{
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+input:focus{
+    background-color: rgba( 0, 0, 0, 0.9 );
+}
+button{
+    background: red;
+    border: none;
+    margin-top: 4em;
+    width: 98%;
+    height: 4em;
+    border-radius: 3px;
+    align-items: center;
+}
+a button{
+    color: rgb(247, 238, 238);
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    align-self: center;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1em auto;
+    width: 70%;
+    /* border: 2px solid red; */
+    height: 6.3em;
+    color: white;
+    font-family: 'Castoro Titling', cursive;
+    font-size: 1rem;
+}
+.about h4{
+    font-family: 'Castoro Titling', cursive;
+    font-weight: normal;
+}
+h4 a b{
+    font-weight: normal;
+    font-family: 'Castoro Titling', cursive;
+}
